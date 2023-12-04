@@ -8,7 +8,7 @@ The missing cookiecutter for a Postgres extension 🎉
 
 ## Installation
 
-You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend pipx for this:
+You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed.
 
     pip install cookiecutter
     or

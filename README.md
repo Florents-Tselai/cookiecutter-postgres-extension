@@ -1,6 +1,10 @@
 # postgres-extension cookiecutter template
 
-Opinionated cookiecutter template for creating a new Postgres extension
+The missing cookiecutter for a Postgres extension 🎉
+
+* Pre-populated extension files (`Makefile,` `.control,` `,c`, `.h`, `.sql`)
+* Tests
+* Build on multiple Postgres versions with GitHub Actions
 
 ## Installation
 

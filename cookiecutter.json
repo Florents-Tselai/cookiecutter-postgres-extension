@@ -1,0 +1,26 @@
+{
+  "extension_name": "",
+  "description": "",
+  "hyphenated": "{{ '-'.join(cookiecutter['extension_name'].lower().split()).replace('_', '-') }}",
+  "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
+  "directory": "{{ cookiecutter['extension_name'] }}",
+  "default_version": "0.1.0",
+  "comment": "{{ cookiecutter['description'] }}",
+  "encoding": "",
+  "module_pathname": " {{ '$libdir/' + cookiecutter['extension_name'] }}",
+  "superuser": "y",
+  "trusted": "y",
+  "relocatable": "n",
+  "schema": "",
+  "author_name": "Florents Tselai",
+  "email": "florents@tselai.com",
+  "github_username": "Florents-Tselai",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
+}

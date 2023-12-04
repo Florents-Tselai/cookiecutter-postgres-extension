@@ -1,0 +1,18 @@
+select add_one(1);
+ add_one 
+---------
+       2
+(1 row)
+
+select copytext('hello world');
+  copytext   
+-------------
+ hello world
+(1 row)
+
+select concat_text('pa', 'sok');
+ concat_text 
+-------------
+ pasok
+(1 row)
+

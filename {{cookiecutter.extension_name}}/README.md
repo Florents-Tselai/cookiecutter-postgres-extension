@@ -4,11 +4,11 @@
 
 ## Installation
 
-git clone git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}.git
-cd {{cookiecutter.github_repo}}
-make all
-make install
-make installcheck
+    git clone git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}.git
+    cd {{cookiecutter.github_repo}}
+    make all
+    make install
+    make installcheck
 
 ## Credits
 

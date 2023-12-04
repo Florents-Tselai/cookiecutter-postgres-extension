@@ -14,6 +14,12 @@ TESTS = $(wildcard test/sql/*.sql)
 REGRESS = $(patsubst test/sql/%.sql,%,$(TESTS))
 REGRESS_OPTS = --inputdir=test --load-extension=$(EXTENSION)
 
+.PHONY: dist
+
+dist:
+	mkdir -p dist
+	git archive --format zip --prefix=$(EXTENSION)-$(EXTVERSION)/ --output dist/$(EXTENSION)-$(EXTVERSION).zip main
+
 PGXS := $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
 

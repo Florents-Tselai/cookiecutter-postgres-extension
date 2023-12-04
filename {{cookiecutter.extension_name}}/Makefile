@@ -3,7 +3,6 @@ PG_CONFIG ?= pg_config
 EXTENSION = {{cookiecutter.extension_name}}
 EXTVERSION = {{cookiecutter.default_version}}
 
-
 MODULE_big = $(EXTENSION)
 DATA = $(wildcard sql/*--*.sql)
 SRCS = src/{{cookiecutter.extension_name}}.c
@@ -22,4 +21,3 @@ dist:
 
 PGXS := $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
-

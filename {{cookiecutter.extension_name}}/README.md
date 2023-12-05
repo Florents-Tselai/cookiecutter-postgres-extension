@@ -1,5 +1,8 @@
 # {{cookiecutter.extension_name}}: {{cookiecutter.description}}
 
+[![Build Status](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}/actions/workflows/build.yml/badge.svg)]
+(https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}/actions)
+
 {{cookiecutter.extension_name}} is a Postgres extension that {{cookiecutter.description}}
 
 ## Installation

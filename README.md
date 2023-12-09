@@ -2,9 +2,9 @@
 
 The missing cookiecutter for a Postgres extension
 
-* Pre-populated extension files (`Makefile,` `.control,` `,c`, `.h`, `.sql`)
-* Tests
-* Build on multiple Postgres versions with GitHub Actions
+* Pre-populated extension files (`Makefile,` `.control,` `,c`, `.h`, `.sql`) with stubs.
+* Regression Tests
+* Out-of-the-box GitHub Actions for building on multiple Postgres versions
 * Docker support
 * [pgxn](https://pgxn.org) integration
 

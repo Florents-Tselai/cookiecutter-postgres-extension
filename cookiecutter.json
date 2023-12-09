@@ -3,6 +3,7 @@
   "description": "",
   "hyphenated": "{{ '-'.join(cookiecutter['extension_name'].lower().split()).replace('_', '-') }}",
   "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
+  "pg_major_version": "15",
   "directory": "{{ cookiecutter['extension_name'] }}",
   "default_version": "0.1.0",
   "comment": "{{ cookiecutter['description'] }}",

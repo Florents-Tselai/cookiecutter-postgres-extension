@@ -16,7 +16,7 @@
 
 The missing cookiecutter for a Postgres extension
 
-* Pre-populated extension files (`Makefile,` `.control,` `,c`, `.h`, `.sql`) with stubs.
+* Standard extension files (`Makefile,` `.control,` `,c`, `.h`, `.sql`) pre-populated with stubs.
 * Regression Tests
 * Out-of-the-box GitHub Actions for building on multiple Postgres versions
 * Docker support

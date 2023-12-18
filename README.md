@@ -33,8 +33,11 @@ You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) install
 
 ## Usage
 
-Run `cookiecutter gh:Florents-Tselai/cookiecutter-postgres-extension` and then 
-answer the prompts.
+Run
+
+    cookiecutter gh:Florents-Tselai/cookiecutter-postgres-extension  
+
+and then answer the prompts. 
 
 The prompt answers will be used to populate the [standard Postgres 
 extension files](https://www.postgresql.org/docs/current/extend-extensions.html#EXTEND-EXTENSIONS-FILES)

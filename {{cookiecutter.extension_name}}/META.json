@@ -1,0 +1,46 @@
+{
+	"name": "{{ cookiecutter.extension_name }}",
+	"abstract": "{{ cookiecutter.description }}",
+	"description": "",
+	"version": "{{ cookiecutter.default_version }}",
+	"maintainer": [
+		"{{ cookiecutter.author_name }} <{{ cookiecutter.email }}>"
+	],
+	"license": {
+		"PostgreSQL": "http://www.postgresql.org/about/licence"
+	},
+	"prereqs": {
+		"runtime": {
+			"requires": {
+				"PostgreSQL": "{{ cookiecutter.pg_major_version }}.0.0"
+			}
+		}
+	},
+	"provides": {
+		"vector": {
+			"file": "sql/{{cookiecutter.extension_name}}--{{cookiecutter.default_version}}.sql",
+			"docfile": "README.md",
+			"version": "{{ cookiecutter.default_version }}",
+			"abstract": "{{ cookiecutter.description }}"
+		}
+	},
+	"resources": {
+		"homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}",
+		"bugtracker": {
+			"web": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/issues"
+		},
+		"repository": {
+			"url":  "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}.git",
+			"web":  "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}",
+			"type": "git"
+		}
+	},
+	"generated_by": "{{ cookiecutter.author_name }}",
+	"meta-spec": {
+		"version": "1.0.0",
+		"url": "http://pgxn.org/meta/spec.txt"
+	},
+	"tags": [
+		{{ cookiecutter.tags }}
+	]
+}

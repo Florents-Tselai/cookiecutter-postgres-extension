@@ -7,6 +7,7 @@
   "directory": "{{ cookiecutter['extension_name'] }}",
   "default_version": "0.1.0",
   "comment": "{{ cookiecutter['description'] }}",
+  "tags": "",
   "encoding": "",
   "module_pathname": " {{ '$libdir/' + cookiecutter['extension_name'] }}",
   "superuser": "y",
@@ -16,7 +17,7 @@
   "author_name": "Florents Tselai",
   "email": "florents@tselai.com",
   "github_username": "Florents-Tselai",
-  "github_repo": "myext",
+  "github_repo": "{{ cookiecutter['extension_name'] }}",
   "open_source_license": [
     "MIT license",
     "BSD license",

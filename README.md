@@ -7,6 +7,7 @@
   <strong>The missing cookiecutter for a Postgres extension</strong>
     <br> <br />
     <a href="#features"><strong> Features</strong></a> |
+      <a href="#demo"><strong> Demo</strong></a> |
     <a href="#installation"><strong> Installation </strong></a> |
     <a href="#usage"><strong> Usage </strong></a>
    </p>
@@ -21,6 +22,10 @@ The missing cookiecutter for a Postgres extension
 * Out-of-the-box GitHub Actions for building on multiple Postgres versions
 * Docker support
 * [pgxn](https://pgxn.org) integration
+
+## Demo
+
+Video [here](https://www.youtube.com/watch?v=zVxY3ZmE5bU)
 
 ## Installation
 
